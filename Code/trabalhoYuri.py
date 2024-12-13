@@ -3,8 +3,6 @@
 import pandas as pd
 import math
 import matplotlib.pyplot as plt
-import os
-import platform
 
 # Estudante
 
@@ -18,11 +16,7 @@ print("Professor: Jorge Alencar\n")
 
 print("Data: 11/12/24\n")
 
-# Verifica se o sistema é Windows ou Linux
-if platform.system() == "Windows":
-    os.system("pause")  # Para Windows
-else:
-    input("Pressione Enter para continuar...")  # Para Linux e outros sistemas
+input("Pressione Enter para continuar...")
 
 # Entrada de dados
 
@@ -98,11 +92,7 @@ varWB = [
 
 print("\tVáriavel W da Amostra B\n", varWB, end="\n\n")
 
-# Verifica se o sistema é Windows ou Linux
-if platform.system() == "Windows":
-    os.system("pause")  # Para Windows
-else:
-    input("Pressione Enter para continuar...")  # Para Linux e outros sistemas
+input("Pressione Enter para continuar...")
 
 # Questão 1
 
@@ -173,11 +163,7 @@ if(F < F1 or F > F2):
 else:
     print("As variâncias são iguais\n")
 
-### Verifica se o sistema é Windows ou Linux
-if platform.system() == "Windows":
-    os.system("pause")  # Para Windows
-else:
-    input("Pressione Enter para continuar...")  # Para Linux e outros sistemas
+input("Pressione Enter para continuar...")
 
 
 
@@ -231,11 +217,7 @@ if(T < (t * -1) or T > (t)):
 else:
     print("As médias são iguais\n")
 
-### Verifica se o sistema é Windows ou Linux
-if platform.system() == "Windows":
-    os.system("pause")  # Para Windows
-else:
-    input("Pressione Enter para continuar...")  # Para Linux e outros sistemas
+input("Pressione Enter para continuar...")
 
 
 
@@ -293,20 +275,12 @@ print(f"y = Alfa + (Beta * X) = {alfaObs:.4f} + ({betaObs:.4f} * x)\n")
 
 print("Agora vamos olhar o gráfico\n")
 
-### Verifica se o sistema é Windows ou Linux
-if platform.system() == "Windows":
-    os.system("pause")  # Para Windows
-else:
-    input("Pressione Enter para continuar...")  # Para Linux e outros sistemas
+input("Pressione Enter para continuar...")
 
 plt.show()
 
 print("\nAnalisando o gráfico, a reta foi ajustada adequadamente!\n")
 
-### Verifica se o sistema é Windows ou Linux
-if platform.system() == "Windows":
-    os.system("pause")  # Para Windows
-else:
-    input("Pressione Enter para encerrar...")  # Para Linux e outros sistemas
+input("Pressione Enter para encerrar...")
 
-#TODO: Comando pyinstaller --onefile --icon="../Icons/favicon.ico" trabalhoYuri.py
+#TODO: Comando pyinstaller --onefile --icon="Icons/favicon.ico" Code/trabalhoYuri.py
