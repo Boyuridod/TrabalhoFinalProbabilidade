@@ -193,7 +193,7 @@ ud = 0
 
 ### Tabela de t-student
 ### Usando a distribuição de t-Student
-T = (D - ud) / (math.sqrt(EstimadorVar * (len(varYA) + len(varYB))))
+T = (D - ud) / (math.sqrt(EstimadorVar * ((1 / len(varYA)) + (1 / len(varYB)))))
 
 ### T possui a distribuicão ̃t-Student com ((nx - 1) + (ny - 1)) graus de liberdade.
 grauDeLiberdade = ((len(varYA) - 1) + (len(varYB) - 1))
