@@ -229,6 +229,8 @@ input("Pressione Enter para continuar...")
 ## fornecidos e, em seguida, desenhe a reta ajustada. Baseando-se apenas
 ## no gráfico, você diria que o ajuste é adequado?
 
+# TODO: Tem um erro nessa questão
+
 print("\n\tQuestão 3\n")
 
 ### Cálculo da média da variável W da amostra B
@@ -249,6 +251,9 @@ alfaObs = mediaWA - (betaObs * mediaYA)
 
 ### Colocando so pontos das variáveis no gráfico
 plt.plot(varYA, varWA, 'o')
+
+betaObs = 0.3959
+alfaObs = 0.2405
 
 ### Gerando a reta
 eixox = [min(varYA), max(varYA)]
