@@ -23,7 +23,7 @@ O objetivo do trabalho é aplicar conceitos fundamentais de probabilidade e esta
 ## Tecnologias e Ferramentas
 
 - Linguagens: Python
-- Bibliotecas estatísticas: NumPy, Matplotlib
+- Bibliotecas estatísticas: Pandas, Math e Matplotlib
 - Ferramentas de documentação: Word, Google Docs
 
 ---
