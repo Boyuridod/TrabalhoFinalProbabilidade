@@ -39,6 +39,7 @@ O objetivo do trabalho é aplicar conceitos fundamentais de probabilidade e esta
 
 ---
 
-## Licença
+## 📄 Licença
 
-Este repositório é destinado para fins acadêmicos e de estudo.
+Este repositório é destinado para fins acadêmicos e de estudo.  
+Fique à vontade para consultar o material, mas recomendo fortemente que você faça seus próprios estudos e exercícios para realmente entender o conteúdo, em vez de copiar direto os arquivos. Assim o aprendizado é muito mais eficaz e duradouro!
